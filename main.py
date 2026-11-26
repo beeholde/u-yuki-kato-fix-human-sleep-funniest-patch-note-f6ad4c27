@@ -4,7 +4,7 @@ import os
 from pathlib import Path
 
 MAX_CHARS = 160
-PATCH_NOTE = "Fixed: 20-minute naps no longer last 3 hours and a different year."
+PATCH_NOTE = "Fixed: strangers in dreams claiming to be your mother must now show ID."
 assert len(PATCH_NOTE) <= MAX_CHARS
 OUTPUT_PATH = Path("/output/entry.txt")
 
